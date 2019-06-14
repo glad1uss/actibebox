@@ -1,0 +1,31 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    @media screen and (max-width: 1260px){
+        max-width: 90%;
+    }
+}
+.btn{
+    min-width: 200px;
+    color: #fff;
+    font-family: "Raleway - Semi Bold",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 18px 46px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+    &--red{
+        background:#e84545;
+        &:hover{
+            opacity: 0.9;
+        }
+    }
+}

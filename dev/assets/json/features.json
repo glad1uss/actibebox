@@ -1,0 +1,34 @@
+{
+    "cards": [
+        {
+            "img": "assets/img/features/tools.png",
+            "title": "Easily Customised",
+            "description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla."
+        },
+        {
+            "img": "assets/img/features/response.png",
+            "title": "Responsive Ready",
+            "description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla"
+        },
+        {
+            "img": "assets/img/features/modern.png",
+            "title": "Modern Design",
+            "description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla."
+        },
+        {
+            "img": "assets/img/features/clean.png",
+            "title": "Clean Code",
+            "description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla."
+        },
+        {
+            "img": "assets/img/features/ready.png",
+            "title": "Ready to Ship",
+            "description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla."
+        },
+        {
+            "img": "assets/img/features/download.png",
+            "title": "Download for Free",
+            "description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla."
+        }
+    ]
+}

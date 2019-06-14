@@ -1,0 +1,52 @@
+section.top-hero{
+    background: url(../img/top_bg.png) no-repeat;
+    height: 750px;
+    .container{
+        height: 100%;
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100%;
+        } 
+    }
+    .top-hero__title{
+        max-width: 861px;
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 71px;
+        margin-bottom: 41px;
+        text-transform: uppercase;
+        @media screen and (max-width: 960px){
+            font-size: 36px;
+            padding: 0 40px;
+        }
+        @media screen and (max-width: 480px){
+            margin-top: 60px;
+            line-height: 48px;
+            font-size: 26px;
+            padding: 0 40px;
+        }
+    }
+    .top-hero__subtitle{
+        max-width: 920px;
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        margin-bottom: 77px;
+        @media screen and (max-width: 960px){
+            font-size: 20px;
+            padding: 0 40px;
+        }
+        @media screen and (max-width: 480px){
+            font-size: 18px;
+            padding: 0 40px;
+        }
+    }
+}

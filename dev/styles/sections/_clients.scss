@@ -1,0 +1,67 @@
+section#clients{
+    position: relative;
+    .container{
+    display: flex;
+    position: relative;
+    bottom: 150px;
+    @media screen and (max-width: 1100px){
+        bottom: 80px
+    }
+    }
+    .reviewer{
+        display: flex;
+        flex-direction: row;
+        min-height: 500px;
+        outline: none;
+        @media screen and (max-width: 1100px){
+            flex-direction: column;
+        }
+
+        &__photo{
+            width: 50%;
+            min-height: 500px;
+            @media screen and (max-width: 1100px){
+                width: 100%;
+            }
+        }
+        &__text{
+            padding: 114px 0px  114px 85px;
+            display: flex;
+            flex-direction: column;
+            background: #53354a;
+            width: 50%;
+            box-sizing: border-box;
+            @media screen and (max-width: 1100px){
+                width: 100%;
+                padding: 70px 65px  100px 65px;
+            }
+            @media screen and (max-width: 768px){
+                padding: 50px 25px  80px 25px;
+            }
+        }
+        &__content{
+            color: #fff;
+            font-family: 'Cardo',sans-serif;
+            font-size: 36px;
+            font-style: italic;
+            line-height: 42px;
+            margin-bottom: 30px;
+            max-width: 500px;
+            @media screen and (max-width: 1100px){
+                max-width: unset;
+                text-align: center;
+            }
+        }
+        &__personality{
+            color: #fff;
+            font-family: $raleway;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 21px;
+            text-transform: uppercase;
+            @media screen and (max-width: 1100px){
+                text-align: center;
+            }
+        }
+    }
+}

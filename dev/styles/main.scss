@@ -1,0 +1,25 @@
+@import "../../node_modules/reset-css/sass/reset";
+@import "../../node_modules/normalize-scss/sass/normalize";
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+// Подключение шрифтов и переменных
+@import 'fonts';
+@import 'vars';
+@import 'common';
+
+//Подключение секций
+
+@import 'sections/top-hero';
+@import 'sections/features';
+@import 'sections/works';
+@import 'sections/team';
+@import 'sections/clients';
+@import 'sections/download';
+
+// Подключение компонентов
+@import 'components/header';
+@import 'components/nav-bar';
+@import 'components/modals';
+@import 'components/slider';
+@import 'components/footer';
+
